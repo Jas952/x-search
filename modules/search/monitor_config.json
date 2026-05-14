@@ -1,0 +1,36 @@
+{
+  "settings": {
+    "cycle_interval_minutes": 10,
+    "queries_per_cycle": 3,
+    "pages_per_query": 1,
+    "results_per_query": 20,
+    "pause_between_queries_sec": 15,
+    "save_reports": true,
+    "seen_tweets_file": "modules/search/seen_tweets.json",
+    "max_seen_tweets": 50000,
+    "report_dir": "modules/search/reports"
+  },
+  "queries": [
+    {
+      "name": "Crypto Alpha",
+      "query": "crypto alpha -is:retweet lang:en",
+      "sort": "latest",
+      "priority": "high",
+      "min_likes": 5
+    },
+    {
+      "name": "DeFi News",
+      "query": "defi protocol launch -is:retweet lang:en",
+      "sort": "top",
+      "priority": "medium",
+      "min_likes": 10
+    },
+    {
+      "name": "NFT Drops",
+      "query": "NFT mint live -is:retweet lang:en",
+      "sort": "latest",
+      "priority": "low",
+      "min_likes": 3
+    }
+  ]
+}
