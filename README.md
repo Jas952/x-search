@@ -1,4 +1,4 @@
-# check_x_bot
+# Research on subscribers and data retention from X (Twitter)
 
 Twitter/X monitoring bot written in Go. Tracks new followings of target accounts and monitors keyword searches — sends notifications to Telegram.
 
@@ -129,10 +129,4 @@ make test       # run tests
 make lint       # golangci-lint
 ```
 
-## Disclaimer
 
-This project uses Twitter's internal API via session cookies. Use responsibly and at your own risk. It may violate Twitter's Terms of Service.
-# x-search
-# x-search
-# x-search
-# x-search
